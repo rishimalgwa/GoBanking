@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun 29 16:37:41 2022
+# Make data base, printed on Wed Jun 29 21:35:00 2022
 
 # Variables
 
@@ -25,7 +23,7 @@ SNAP_INSTANCE_KEY =
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d1793e5f-da1a-49a2-87e2-9abdc6a696a3.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c362ffd0-9e24-4a28-aa17-7de48ddbe9ed.sock
 # environment
 VSCODE_CWD = /home/rishi
 # default
@@ -65,7 +63,7 @@ VSCODE_CODE_CACHE_PATH = /home/rishi/.config/Code/CachedData/30d9c6cd9483b2cc586
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.KUD5N1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.WMN4N1
 # default
 .LOADED := 
 # default
@@ -103,7 +101,7 @@ ZSH = /home/rishi/.oh-my-zsh
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 9842
+VSCODE_PID = 5555
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -111,7 +109,7 @@ XDG_SESSION_TYPE = wayland
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/Rishi:@/tmp/.ICE-unix/3280,unix/Rishi:/tmp/.ICE-unix/3280
+SESSION_MANAGER = local/Rishi:@/tmp/.ICE-unix/3337,unix/Rishi:/tmp/.ICE-unix/3337
 # automatic
 *F = $(notdir $*)
 # environment
@@ -157,7 +155,7 @@ SNAP = /snap/code/99
 # environment
 GOROOT = /usr/local/go
 # environment
-INVOCATION_ID = 0b772907c0fc407db2f721ced8ed8ea6
+INVOCATION_ID = dbf4cd24b5e9494abb37e4efbf79fc83
 # environment
 SNAP_REVISION = 99
 # environment
@@ -193,7 +191,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := postgres
 # environment
-SYSTEMD_EXEC_PID = 3314
+SYSTEMD_EXEC_PID = 3357
 # environment
 DISPLAY = :0
 # environment
@@ -209,9 +207,9 @@ SNAP_DATA = /var/snap/code/99
 # environment
 SNAP_CONTEXT = VdfEkBz3uOYM9ryCMsUT7vyaFbgav6ZrI-4C0vHgM7XcZd5EdxVh
 # environment
-MANAGERPID = 3180
+MANAGERPID = 3222
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 9790
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5509
 # environment
 PAGER = less
 # environment
@@ -221,7 +219,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/rishi/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-JOURNAL_STREAM = 8:42520
+JOURNAL_STREAM = 8:45145
 # environment
 GOMODCACHE = /home/rishi/go/pkg/mod
 # environment
@@ -275,9 +273,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66311, inode 1185718): 9 files, no impossibilities.
+# . (device 66311, inode 1185718): 10 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -288,10 +286,12 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 migratedown:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
- 
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 14):
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/simple_bank?sslmode=disable" -verbose down
 
 # Not a target:
@@ -367,12 +367,12 @@ createdb:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 21 / storage = 169 B / avg = 8 B
-# current buf: size = 8162 B / used = 169 B / count = 21 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 176 B / avg = 8 B
+# current buf: size = 8162 B / used = 176 B / count = 22 / avg = 8 B
 
-# strcache performance: lookups = 38 / hit rate = 44%
+# strcache performance: lookups = 39 / hit rate = 43%
 # hash-table stats:
-# Load=21/8192=0%, Rehash=0, Collisions=0/38=0%
-# Finished Make data base on Wed Jun 29 16:37:41 2022
+# Load=22/8192=0%, Rehash=0, Collisions=0/39=0%
+# Finished Make data base on Wed Jun 29 21:35:00 2022
 
  
