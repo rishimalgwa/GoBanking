@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun 30 17:05:01 2022
+# Make data base, printed on Thu Jun 30 22:17:22 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ SNAP_INSTANCE_KEY =
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6f30370f-c603-4773-a066-1cbf87079451.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6f2bc318-8557-43ba-bb4c-e5ebe63eaa73.sock
 # environment
 VSCODE_CWD = /home/rishi
 # default
@@ -65,7 +65,7 @@ VSCODE_CODE_CACHE_PATH = /home/rishi/.config/Code/CachedData/30d9c6cd9483b2cc586
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.F557N1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.KC97N1
 # default
 .LOADED := 
 # default
@@ -103,7 +103,7 @@ ZSH = /home/rishi/.oh-my-zsh
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 11610
+VSCODE_PID = 7948
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -111,7 +111,7 @@ XDG_SESSION_TYPE = wayland
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/Rishi:@/tmp/.ICE-unix/3267,unix/Rishi:/tmp/.ICE-unix/3267
+SESSION_MANAGER = local/Rishi:@/tmp/.ICE-unix/3123,unix/Rishi:/tmp/.ICE-unix/3123
 # automatic
 *F = $(notdir $*)
 # environment
@@ -157,7 +157,7 @@ SNAP = /snap/code/99
 # environment
 GOROOT = /usr/local/go
 # environment
-INVOCATION_ID = c458f0d4af884a16b1f893cdf1ade829
+INVOCATION_ID = d025f38642a54555bbda1b9502a4aa0a
 # environment
 SNAP_REVISION = 99
 # environment
@@ -193,7 +193,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := postgres
 # environment
-SYSTEMD_EXEC_PID = 3299
+SYSTEMD_EXEC_PID = 3148
 # environment
 DISPLAY = :0
 # environment
@@ -209,9 +209,9 @@ SNAP_DATA = /var/snap/code/99
 # environment
 SNAP_CONTEXT = VdfEkBz3uOYM9ryCMsUT7vyaFbgav6ZrI-4C0vHgM7XcZd5EdxVh
 # environment
-MANAGERPID = 3165
+MANAGERPID = 3006
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 11560
+GIO_LAUNCHED_DESKTOP_FILE_PID = 7903
 # environment
 PAGER = less
 # environment
@@ -221,7 +221,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/rishi/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-JOURNAL_STREAM = 8:42279
+JOURNAL_STREAM = 8:42340
 # environment
 GOMODCACHE = /home/rishi/go/pkg/mod
 # environment
@@ -286,10 +286,10 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 # Files
 
 migratedown:
- 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
+ 
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 14):
 	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/simple_bank?sslmode=disable" -verbose down
@@ -381,6 +381,6 @@ createdb:
 # strcache performance: lookups = 43 / hit rate = 44%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=0/43=0%
-# Finished Make data base on Thu Jun 30 17:05:01 2022
+# Finished Make data base on Thu Jun 30 22:17:22 2022
 
  
