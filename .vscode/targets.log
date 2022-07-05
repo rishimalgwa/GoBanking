@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul  4 16:40:50 2022
+# Make data base, printed on Tue Jul  5 21:47:41 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ SNAP_INSTANCE_KEY =
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-38619594-c266-46d3-85bc-f6122329b85c.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0ed58783-b0e8-4aff-9d28-552245588f42.sock
 # environment
 VSCODE_CWD = /home/rishi
 # default
@@ -65,7 +65,7 @@ VSCODE_CODE_CACHE_PATH = /home/rishi/.config/Code/CachedData/30d9c6cd9483b2cc586
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.LA3ZO1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.B8LVO1
 # default
 .LOADED := 
 # default
@@ -103,7 +103,7 @@ ZSH = /home/rishi/.oh-my-zsh
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 16695
+VSCODE_PID = 26616
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -111,7 +111,7 @@ XDG_SESSION_TYPE = wayland
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/Rishi:@/tmp/.ICE-unix/3284,unix/Rishi:/tmp/.ICE-unix/3284
+SESSION_MANAGER = local/Rishi:@/tmp/.ICE-unix/3229,unix/Rishi:/tmp/.ICE-unix/3229
 # automatic
 *F = $(notdir $*)
 # environment
@@ -143,7 +143,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = VdfEkBz3uOYM9ryCMsUT7vyaFbgav6ZrI-4C0vHgM7XcZd5EdxVh
 # environment
-PATH = /usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rishi/go/bin:/home/rishi/go/bin//usr/local/go/bin:/home/rishi/go/bin//usr/local/go/bin
+PATH = /usr/local/go/bin:/home/rishi/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rishi/go/bin:/home/rishi/go/bin//usr/local/go/bin:/home/rishi/go/bin//usr/local/go/bin
 # default
 MAKEFILES := 
 # environment
@@ -157,7 +157,7 @@ SNAP = /snap/code/99
 # environment
 GOROOT = /usr/local/go
 # environment
-INVOCATION_ID = dff2ce5825cf4d1e8f44f2f6e1f3d638
+INVOCATION_ID = 5e0432067c2a4549b92c09d5ea97866d
 # environment
 SNAP_REVISION = 99
 # environment
@@ -193,7 +193,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := postgres
 # environment
-SYSTEMD_EXEC_PID = 3320
+SYSTEMD_EXEC_PID = 3247
 # environment
 DISPLAY = :0
 # environment
@@ -209,9 +209,9 @@ SNAP_DATA = /var/snap/code/99
 # environment
 SNAP_CONTEXT = VdfEkBz3uOYM9ryCMsUT7vyaFbgav6ZrI-4C0vHgM7XcZd5EdxVh
 # environment
-MANAGERPID = 3187
+MANAGERPID = 3113
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 16644
+GIO_LAUNCHED_DESKTOP_FILE_PID = 26566
 # environment
 PAGER = less
 # environment
@@ -221,7 +221,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/rishi/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-JOURNAL_STREAM = 8:43176
+JOURNAL_STREAM = 8:39615
 # environment
 GOMODCACHE = /home/rishi/go/pkg/mod
 # environment
@@ -275,11 +275,12 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66311, inode 1185718): 11 files, no impossibilities.
+# . (device 66311, inode 1185718): 13 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
+ 
 
 # No implicit rules.
 
@@ -296,8 +297,7 @@ migratedown:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
- 
-#  Last modified 2022-06-29 23:14:49.539199641
+#  Last modified 2022-07-04 17:40:39.071348355
 #  File has been updated.
 #  Successfully updated.
 
@@ -308,6 +308,14 @@ dropdb:
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 8):
 	sudo docker exec -it postgres14 dropdb simple_bank
+
+server:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 23):
+	go run main.go
 
 migrateup:
 #  Phony target (prerequisite of .PHONY).
@@ -362,25 +370,25 @@ createdb:
 #  recipe to execute (from 'Makefile', line 5):
 	sudo docker exec -it postgres14 createdb --username=root --owner=root simple_bank
 
-.PHONY: postgres createdb dropdb migrateup migratedown sqlc test
+.PHONY: postgres createdb dropdb migrateup migratedown sqlc test server
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/29=0%
+# Load=13/1024=1%, Rehash=0, Collisions=0/31=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 186 B / avg = 7 B
-# current buf: size = 8162 B / used = 186 B / count = 24 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 205 B / avg = 7 B
+# current buf: size = 8162 B / used = 205 B / count = 27 / avg = 7 B
 
-# strcache performance: lookups = 43 / hit rate = 44%
+# strcache performance: lookups = 48 / hit rate = 43%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=0/43=0%
-# Finished Make data base on Mon Jul  4 16:40:50 2022
+# Load=27/8192=0%, Rehash=0, Collisions=0/48=0%
+# Finished Make data base on Tue Jul  5 21:47:41 2022
 
  
