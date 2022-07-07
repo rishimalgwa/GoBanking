@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul  5 21:47:41 2022
+# Make data base, printed on Thu Jul  7 21:51:53 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ SNAP_INSTANCE_KEY =
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0ed58783-b0e8-4aff-9d28-552245588f42.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d2a59e0b-6b1c-4955-97b2-5e8247bab411.sock
 # environment
 VSCODE_CWD = /home/rishi
 # default
@@ -65,7 +65,7 @@ VSCODE_CODE_CACHE_PATH = /home/rishi/.config/Code/CachedData/30d9c6cd9483b2cc586
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.B8LVO1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.JA6RO1
 # default
 .LOADED := 
 # default
@@ -103,7 +103,7 @@ ZSH = /home/rishi/.oh-my-zsh
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 26616
+VSCODE_PID = 6857
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -111,7 +111,7 @@ XDG_SESSION_TYPE = wayland
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/Rishi:@/tmp/.ICE-unix/3229,unix/Rishi:/tmp/.ICE-unix/3229
+SESSION_MANAGER = local/Rishi:@/tmp/.ICE-unix/3144,unix/Rishi:/tmp/.ICE-unix/3144
 # automatic
 *F = $(notdir $*)
 # environment
@@ -157,7 +157,7 @@ SNAP = /snap/code/99
 # environment
 GOROOT = /usr/local/go
 # environment
-INVOCATION_ID = 5e0432067c2a4549b92c09d5ea97866d
+INVOCATION_ID = c226573acb8d49d1907f7317ead4498c
 # environment
 SNAP_REVISION = 99
 # environment
@@ -193,7 +193,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := postgres
 # environment
-SYSTEMD_EXEC_PID = 3247
+SYSTEMD_EXEC_PID = 3162
 # environment
 DISPLAY = :0
 # environment
@@ -209,19 +209,20 @@ SNAP_DATA = /var/snap/code/99
 # environment
 SNAP_CONTEXT = VdfEkBz3uOYM9ryCMsUT7vyaFbgav6ZrI-4C0vHgM7XcZd5EdxVh
 # environment
-MANAGERPID = 3113
+MANAGERPID = 3028
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 26566
+GIO_LAUNCHED_DESKTOP_FILE_PID = 6806
 # environment
 PAGER = less
 # environment
 _ = /snap/code/99/usr/share/code/code
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
+ 
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/rishi/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-JOURNAL_STREAM = 8:39615
+JOURNAL_STREAM = 8:43273
 # environment
 GOMODCACHE = /home/rishi/go/pkg/mod
 # environment
@@ -280,7 +281,6 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 # 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
- 
 
 # No implicit rules.
 
@@ -389,6 +389,6 @@ createdb:
 # strcache performance: lookups = 48 / hit rate = 43%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=0/48=0%
-# Finished Make data base on Tue Jul  5 21:47:41 2022
+# Finished Make data base on Thu Jul  7 21:51:53 2022
 
  
