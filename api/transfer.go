@@ -12,7 +12,7 @@ import (
 type transferRequest struct {
 	FromAccountId int64  `json:"from_account_id" binding:"required"`
 	ToAccountId   int64  `json:"to_account_id" binding:"required"`
-	Currency      string `json:"currency" binding:"required,oneof=USD EUR INR"`
+	Currency      string `json:"currency" binding:"required,oneof=currency"`
 	Amount        int64  `json:"amount" binding:"required,gt=0"`
 }
 
