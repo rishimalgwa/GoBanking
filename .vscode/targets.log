@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul  7 21:51:53 2022
+# Make data base, printed on Sat Jul 30 21:42:53 2022
 
 # Variables
 
@@ -25,8 +25,6 @@ SNAP_INSTANCE_KEY =
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d2a59e0b-6b1c-4955-97b2-5e8247bab411.sock
-# environment
 VSCODE_CWD = /home/rishi
 # default
 MAKE_COMMAND := make
@@ -39,7 +37,7 @@ GOPATH = /home/rishi/go
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/99/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -56,16 +54,14 @@ XDG_DATA_DIRS = /usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 OLDPWD = /home/rishi
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
-# environment
-VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/rishi/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = /home/rishi/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.JA6RO1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.8TV4P1
 # default
 .LOADED := 
 # default
@@ -74,8 +70,6 @@ XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.JA6RO1
 MAKEFLAGS = pqrR
 # makefile
 CURDIR := /home/rishi/GoBanking
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -101,9 +95,7 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/rishi/.oh-my-zsh
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 6857
+VSCODE_PID = 8103
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -111,7 +103,7 @@ XDG_SESSION_TYPE = wayland
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/Rishi:@/tmp/.ICE-unix/3144,unix/Rishi:/tmp/.ICE-unix/3144
+SESSION_MANAGER = local/Rishi:@/tmp/.ICE-unix/3102,unix/Rishi:/tmp/.ICE-unix/3102
 # automatic
 *F = $(notdir $*)
 # environment
@@ -153,17 +145,15 @@ LANGUAGE = en_IN:en
 # environment
 SNAP_USER_COMMON = /home/rishi/snap/code/common
 # environment
-SNAP = /snap/code/99
+SNAP = /snap/code/102
 # environment
 GOROOT = /usr/local/go
 # environment
-INVOCATION_ID = c226573acb8d49d1907f7317ead4498c
+INVOCATION_ID = c21727cf16a24ff08e16eae5c8e41413
 # environment
-SNAP_REVISION = 99
+SNAP_REVISION = 102
 # environment
 SNAP_REAL_HOME = /home/rishi
-# environment
-VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = rishi
 # environment
@@ -193,7 +183,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := postgres
 # environment
-SYSTEMD_EXEC_PID = 3162
+SYSTEMD_EXEC_PID = 3137
 # environment
 DISPLAY = :0
 # environment
@@ -205,24 +195,23 @@ MAKE_VERSION := 4.3
 # environment
 DISABLE_WAYLAND = 1
 # environment
-SNAP_DATA = /var/snap/code/99
+SNAP_DATA = /var/snap/code/102
 # environment
 SNAP_CONTEXT = VdfEkBz3uOYM9ryCMsUT7vyaFbgav6ZrI-4C0vHgM7XcZd5EdxVh
 # environment
-MANAGERPID = 3028
+MANAGERPID = 3004
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 6806
+GIO_LAUNCHED_DESKTOP_FILE_PID = 8058
 # environment
 PAGER = less
 # environment
-_ = /snap/code/99/usr/share/code/code
+_ = /snap/code/102/usr/share/code/code
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
- 
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/rishi/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-JOURNAL_STREAM = 8:43273
+JOURNAL_STREAM = 8:39550
 # environment
 GOMODCACHE = /home/rishi/go/pkg/mod
 # environment
@@ -236,11 +225,11 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-67f18005-1.68.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-67f18005-1.69.2-main.sock
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/99/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -248,7 +237,7 @@ GOPROXY = https://proxy.golang.org,direct
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = 30d9c6cd
+SNAP_VERSION = 3b889b09
 # default
 SUFFIXES := 
 # environment
@@ -260,7 +249,7 @@ SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SNAP_USER_DATA = /home/rishi/snap/code/99
+SNAP_USER_DATA = /home/rishi/snap/code/102
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -268,7 +257,7 @@ GDMSESSION = ubuntu
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=127/1024=12%, Rehash=0, Collisions=6/157=4%
+# Load=122/1024=12%, Rehash=0, Collisions=5/152=3%
 
 # Pattern-specific Variable Values
 
@@ -276,9 +265,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66311, inode 1185718): 13 files, no impossibilities.
+# . (device 66311, inode 1185718): 14 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -292,6 +281,7 @@ migratedown:
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 14):
+ 
 	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/simple_bank?sslmode=disable" -verbose down
 
 # Not a target:
@@ -383,12 +373,12 @@ createdb:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 205 B / avg = 7 B
-# current buf: size = 8162 B / used = 205 B / count = 27 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 213 B / avg = 7 B
+# current buf: size = 8162 B / used = 213 B / count = 28 / avg = 7 B
 
-# strcache performance: lookups = 48 / hit rate = 43%
+# strcache performance: lookups = 49 / hit rate = 42%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=0/48=0%
-# Finished Make data base on Thu Jul  7 21:51:53 2022
+# Load=28/8192=0%, Rehash=0, Collisions=0/49=0%
+# Finished Make data base on Sat Jul 30 21:42:53 2022
 
  
